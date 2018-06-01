@@ -247,6 +247,7 @@
 		097457A41D2A440A000D9368 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../ios/Pods/Repro/Repro.embeddedframework";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../React/**",
 					"$(inherited)",
@@ -263,6 +264,7 @@
 		097457A51D2A440A000D9368 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../ios/Pods/Repro/Repro.embeddedframework";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../React/**",
 					"$(inherited)",
